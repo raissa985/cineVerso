@@ -33,6 +33,7 @@ Terminal 1 (Node.js):
 *node server.js*
 
 Terminal 2 (Python):
+
 *python chatbot.py*
 
 Com ambos os servidores rodando, clique na URL *http://localhost:3000* para abrir o site no seu navegador.
