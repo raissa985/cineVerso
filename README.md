@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# cineVerso
-=======
 # Projeto CineVerso
  **Título do Projeto**: CineVerso Interativo  
  
@@ -8,29 +5,32 @@
  
  Planejamos implementar três funcionalidades principais:  
  1. Um chatbot que recomenda filmes e séries com base nas preferências do usuário.
- 2. Um quiz interativo com perguntas sobre filmes e séries, com interação via chatbot.
+ 2. Um quiz interativo com perguntas sobre filmes e séries.
  3. Tabelas com 10 sugestões de filmes de 7 gêneros distintos (comédia, terror, ação, ficção, drama, romance, documentário), atualizada aleatoriamente com dados da API do TMDB.
    
 **Tecnologias Utilizadas:**  
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js 
 - Chatbot: Python 
-- APIs: The Movie Database (TMDB) e Open Trivia DB
+- APIs: The Movie Database (TMDB)
 
 # Como Rodar o Projeto
 
-**1. Clone este repositório:**
+**1. Instale as dependências em um terminal integrado a raiz do projeto:**
 
-   git clone https://github.com/rai985/Projeto-CineVerso.git
+ pip install flask flask-cors requests sentence-transformers python-dotenv
+
+ npm install express dotenv http-proxy-middleware
+
    
-   cd Projeto-CineVerso
-
-**2. Instale as dependências:**
-
-   npm install
-
 **3. Inicie o servidor:**
     
-   node server.js
+Depois de instalar todas as dependências, você precisará executar os dois servidores simultaneamente em dois terminais separados a partir da pasta raiz do projeto.
 
->>>>>>> abf7489 (Primeiro commit)
+Terminal 1 (Node.js):
+node server.js
+
+Terminal 2 (Python):
+python chatbot.py
+
+Com ambos os servidores rodando, clique na URL http://localhost:3000 para abrir o site no seu navegador.
