@@ -1,4 +1,5 @@
 # Projeto CineVerso
+
  **Título do Projeto**: CineVerso Interativo  
  
  **Descrição**: Este projeto visa desenvolver um website interativo que busca facilitar a descoberta de novos títulos e proporcionar uma experiência divertida e personalizada para os usuários, unindo tecnologia, interatividade e cultura pop.  
@@ -18,9 +19,9 @@
 
 **1. Instale as dependências em um terminal integrado a raiz do projeto:**
 
- pip install flask flask-cors requests sentence-transformers python-dotenv
+ *pip install flask flask-cors requests sentence-transformers python-dotenv*
 
- npm install express dotenv http-proxy-middleware
+ *npm install express dotenv http-proxy-middleware*
 
    
 **3. Inicie o servidor:**
@@ -28,11 +29,12 @@
 Depois de instalar todas as dependências, você precisará executar os dois servidores simultaneamente em dois terminais separados a partir da pasta raiz do projeto.
 
 Terminal 1 (Node.js):
-node server.js
+
+*node server.js*
 
 Terminal 2 (Python):
-python chatbot.py
+*python chatbot.py*
 
-Com ambos os servidores rodando, clique na URL http://localhost:3000 para abrir o site no seu navegador.
+Com ambos os servidores rodando, clique na URL *http://localhost:3000* para abrir o site no seu navegador.
 
 
